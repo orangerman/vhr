@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class VHRApplication {
 
     /*
-    *测试
+    *测试  11111
     */
     public static void main(String[] args) {
         SpringApplication.run(VHRApplication.class, args);
