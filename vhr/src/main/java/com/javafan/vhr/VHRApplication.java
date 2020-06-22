@@ -9,6 +9,9 @@ public class VHRApplication {
 
 
     //OK
+    /*
+    *测试
+    */
     public static void main(String[] args) {
         SpringApplication.run(VHRApplication.class, args);
     }
