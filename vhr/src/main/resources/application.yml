@@ -1,11 +1,10 @@
-server:
-  port: 8081
-
-# 数据库的配置
 spring:
   datasource:
-    username: root
-    data-password: root
-    url: jdbc:mysql://localhost:3306/vhr
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/vhr
     type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: fzq199612
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+server:
+  port: 8081
