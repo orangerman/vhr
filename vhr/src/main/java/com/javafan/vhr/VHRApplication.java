@@ -10,7 +10,7 @@ public class VHRApplication {
 
     //OK
     /*
-    *测试
+    *测试  11111
     */
     public static void main(String[] args) {
         SpringApplication.run(VHRApplication.class, args);
